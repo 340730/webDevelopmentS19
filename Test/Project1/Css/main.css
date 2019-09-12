@@ -2,8 +2,7 @@
 }
 
 figure{
-    width:33%;
-    border-radius: 9pt;
+
     border:solid;
     border-width:1px;
 }
@@ -14,14 +13,65 @@ figure{
         margin-right: auto;
     }
 figcaption {
-    border-radius: 9pt;
+
     border: solid;
     border-width: 1px;
+    text-align: center;
+    background-color: white;
 }
- #img1{
+#s1{
+    width:100%;
+    display:inline-block;
+}
+#s2 {
+    width:100%;
+    display: inline-block;
+}
+#s3 {
+    width:100%;
+    display: inline-block;
+}
+section .L {
+    float: left;
+    width: 25%;
+}
+section .C {
+    float: left;
+    width: 25%;
+}
+section .R {
+    float: left;
+    width: 25%;
+}
+#img1{
      background-color:aqua;
     
 }
 img{
-    
+    max-height:100px;
+    max-width: 100px;
+}
+#img2{
+    background-color: lightpink;    
+}
+#img3 {
+    background-color:burlywood;
+}
+#img4 {
+    background-color:lightsteelblue;
+}
+#img5 {
+    background-color:slateblue;
+}
+#img6 {
+    background-color: darkgoldenrod;
+}
+#img7 {
+    background-color: rebeccapurple;
+}
+#img8 {
+    background-color:sandybrown;
+}
+#img9 {
+    background-color: yellowgreen;
 }
